@@ -246,3 +246,4 @@ if __name__ == '__main__':
 
     # Запускаем бота
     executor.start_polling(dp, skip_updates=True)
+
