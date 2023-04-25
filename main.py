@@ -329,7 +329,7 @@ async def log_entry(message: types.Message):
     entry = message.text
     # добавить запись в базу данных
     add_log_entry(user_id, entry, activity_level)
-    await message.answer(text='Цель успешно было добавлена!', reply_markup=menu)
+    await message.answer(text='Цель успешно было добавлена! ', reply_markup=menu)
 
 # Функция для напоминания о тренировке
 
